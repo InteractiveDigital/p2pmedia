@@ -24,8 +24,8 @@ const NumSection = () => {
 
     const stepContent = {
         1: "When it comes to media strategy, we don't gamble on guesswork. We buy smart, optimise, sharper, and own every results.",
-        2: 'Step 2 content goes here.',
-        3: 'Step 3 content goes here.'
+        2: "When it comes to media strategy, we don't gamble on guesswork. We buy smart, optimise, sharper, and own every results.",
+        3: "When it comes to media strategy, we don't gamble on guesswork. We buy smart, optimise, sharper, and own every results."
     };
 
     // Trigger animation on mount

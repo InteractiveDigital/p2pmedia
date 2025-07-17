@@ -64,7 +64,7 @@ const HeroSection = () => {
                     Don’t Just Be <span className="text-[#DE5334]">Seen,</span><br />
                     Be <span className="text-[#DE5334]">Unforgettable.</span>
                 </h1>
-                <Link to="#" className="mt-6 lg:mt-0 inline-flex items-center bg-[#DE5334] hover:bg-[#e14f2d] text-white font-medium rounded-full px-6 py-3 shadow-md transition">
+                <Link to="/contact" className="mt-6 lg:mt-0 inline-flex items-center bg-[#DE5334] hover:bg-[#e14f2d] text-white font-medium rounded-full px-6 py-3 shadow-md transition">
                     Let’s get Started
                     <ArrowUpRight className="ml-2 w-5 h-5" />
                 </Link>

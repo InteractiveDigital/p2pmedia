@@ -76,7 +76,7 @@ const insightsData = [
         image: Insight1,
         date: "February 24, 2025",
         excerpt: 'In an age of digital overload, physical brand experiences still create the deepest connections...',
-        content: `Full article content goes here…`,
+        content: `In an age of digital overload, physical brand experiences still create the deepest connections`,
         tags: ['Newsletter', 'P2P Experts', 'Media Works']
 
     },
@@ -87,8 +87,8 @@ const insightsData = [
         image: Insight2,
         date: "March 24, 2025",
         excerpt: 'Great campaigns don’t just look good — they perform. From smart channel planning to aligning creative…',
-        content: `Full article content goes here…`,
-            tags: ['Newsletter', 'P2P Experts', 'Media Works']
+        content: `In an age of digital overload, physical brand experiences still create the deepest connections`,
+        tags: ['Newsletter', 'P2P Experts', 'Media Works']
 
     },
     {
@@ -98,7 +98,7 @@ const insightsData = [
         image: Insight1,
         date: "April 24, 2025",
         excerpt: 'With rising youth populations, increased mobile usage, and a shift in cultural engagement…',
-        content: `Full article content goes here…`,
+        content: `In an age of digital overload, physical brand experiences still create the deepest connections`,
         tags: ['Newsletter', 'P2P Experts', 'Media Works']
 
     },

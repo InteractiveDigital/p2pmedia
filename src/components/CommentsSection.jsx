@@ -116,7 +116,7 @@ export default function CommentsSection() {
         setVisibleCount((v) => v + BATCH_SIZE);
 
     return (
-        <div className="py-12">
+        <div className="py-12 bg-[#F6F5F2]">
             {/* — Leave A Comment */}
             <h2 className="text-2xl md:text-3xl font-semibold mb-6">
                 <span className="text-gray-800">Leave A </span>
@@ -131,7 +131,7 @@ export default function CommentsSection() {
                         placeholder="Name"
                         value={form.name}
                         onChange={handleChange}
-                        className="bg-gray-100 rounded-full px-4 py-2 focus:ring-2 focus:ring-orange-400 w-full"
+                        className="bg-[#E9EAEF] rounded-full px-4 py-2 focus:ring-2 focus:ring-orange-400 w-full"
                     />
                     <input
                         name="email"
@@ -139,7 +139,7 @@ export default function CommentsSection() {
                         placeholder="Email Address"
                         value={form.email}
                         onChange={handleChange}
-                        className="bg-gray-100 rounded-full px-4 py-2 focus:ring-2 focus:ring-orange-400 w-full"
+                        className="bg-[#E9EAEF] rounded-full px-4 py-2 focus:ring-2 focus:ring-orange-400 w-full"
                     />
                 </div>
                 <textarea
@@ -147,7 +147,7 @@ export default function CommentsSection() {
                     placeholder="Add a comment…"
                     value={form.text}
                     onChange={handleChange}
-                    className="bg-gray-100 rounded-2xl px-4 py-3 focus:ring-2 focus:ring-orange-400 w-full mt-4 h-32 resize-none"
+                    className="bg-[#E9EAEF] rounded-2xl px-4 py-3 focus:ring-2 focus:ring-orange-400 w-full mt-4 h-32 resize-none"
                 />
                 <div className="text-right mt-2">
                     <button className="bg-orange-600 text-white px-6 py-2 rounded-full">
@@ -226,14 +226,14 @@ export default function CommentsSection() {
                                         placeholder="Your name"
                                         value={replyForm.name}
                                         onChange={handleReplyChange}
-                                        className="bg-gray-100 rounded-full px-3 py-1 focus:ring-2 focus:ring-orange-400 w-1/2"
+                                        className="bg-[#E9EAEF] rounded-full px-3 py-1 focus:ring-2 focus:ring-orange-400 w-1/2"
                                     />
                                     <textarea
                                         name="text"
                                         placeholder="Your reply…"
                                         value={replyForm.text}
                                         onChange={handleReplyChange}
-                                        className="bg-gray-100 rounded-2xl px-3 py-2 focus:ring-2 focus:ring-orange-400 w-full h-20 resize-none"
+                                        className="bg-[#E9EAEF] rounded-2xl px-3 py-2 focus:ring-2 focus:ring-orange-400 w-full h-20 resize-none"
                                     />
                                     <div className="text-right">
                                         <button className="bg-orange-600 text-white px-4 py-1 rounded-full">

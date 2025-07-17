@@ -25,8 +25,8 @@ const AboutNum = () => {
 
     const stepContent = {
         1: "When it comes to media strategy, we don't gamble on guesswork. We buy smart, optimise, sharper, and own every results.",
-        2: 'Step 2 content goes here.',
-        3: 'Step 3 content goes here.'
+        2: "When it comes to media strategy, we don't gamble on guesswork. We buy smart, optimise, sharper, and own every results.",
+        3: "When it comes to media strategy, we don't gamble on guesswork. We buy smart, optimise, sharper, and own every results."
     };
 
     // Trigger animation on mount
@@ -85,7 +85,7 @@ const AboutNum = () => {
                     </div>
 
                     {/* Learn More Button */}
-                    <div
+                    {/* <div
                         style={delayStyle(3)}
                         className={`transform transition-all duration-700 ease-out ${animate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                             }`}
@@ -93,7 +93,7 @@ const AboutNum = () => {
                         <button className="mt-6 inline-flex items-center bg-[#F25F3A] hover:bg-[#e14f2d] text-white font-medium rounded-full px-6 py-3 shadow-md transition">
                             Learn More
                         </button>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Right Side */}
