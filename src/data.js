@@ -4,6 +4,10 @@ import Portfolio3 from "./assets/portfolio/portfolio3.png"
 import Portfolio4 from "./assets/portfolio/portfolio4.png"
 
 
+import Insight1 from "./assets/insights/insight1.png"
+import Insight2 from "./assets/insights/insight2.png"
+
+
 export const categories = [
     { id: "all-media", name: "All Media" },
     { id: "motion-graphics", name: "Motion Graphics" },
@@ -60,3 +64,45 @@ export const projects = [
     // },
 
 ]
+
+
+
+// src/data/insightsData.js
+const insightsData = [
+    {
+        id: 1,
+        title: 'Why Brand Activations Are Still The Most Powerful Form',
+        category: 'Insights',
+        image: Insight1,
+        date: "February 24, 2025",
+        excerpt: 'In an age of digital overload, physical brand experiences still create the deepest connections...',
+        content: `Full article content goes here…`,
+        tags: ['Newsletter', 'P2P Experts', 'Media Works']
+
+    },
+    {
+        id: 2,
+        title: '5 Ways to Maximize ROI On Your Next Campaign',
+        category: 'Insights',
+        image: Insight2,
+        date: "March 24, 2025",
+        excerpt: 'Great campaigns don’t just look good — they perform. From smart channel planning to aligning creative…',
+        content: `Full article content goes here…`,
+            tags: ['Newsletter', 'P2P Experts', 'Media Works']
+
+    },
+    {
+        id: 3,
+        title: 'The Future of BTL Marketing in Africa',
+        category: 'Insights',
+        image: Insight1,
+        date: "April 24, 2025",
+        excerpt: 'With rising youth populations, increased mobile usage, and a shift in cultural engagement…',
+        content: `Full article content goes here…`,
+        tags: ['Newsletter', 'P2P Experts', 'Media Works']
+
+    },
+];
+
+export default insightsData;
+

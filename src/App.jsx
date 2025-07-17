@@ -10,6 +10,8 @@ import Services from './pages/Services'
 import DigitalServices from './components/AllServices/DigitalServices'
 import Portfolio from './pages/Portfolio'
 import FirstPortfolio from './components/MainPortfolio/FirstPortfolio'
+import Insights from './components/Insights'
+import InsightDetail from './components/InsightDetail'
 
 
 
@@ -27,6 +29,8 @@ function App() {
           <Route path='/digital' element={<DigitalServices />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/firstportfolio' element={<FirstPortfolio />} />
+          <Route path="/insights" element={<Insights />} />
+          <Route path="/insights/:id" element={<InsightDetail />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
