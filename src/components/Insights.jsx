@@ -28,7 +28,7 @@ export default function Insights() {
                 </span>
 
                 {/* Headline */}
-                <h2 className="text-3xl md:text-[56px] font-medium text-[#091242] mb-12 leading-[47px] tracking-[-3%]">
+                <h2 className="text-2xl md:text-[56px] font-medium text-[#091242] mb-12 md:leading-[47px] tracking-[-3%]">
                     Get To Know More <span className="text-orange-600">Directly</span> <br />
                     From <span className="text-orange-600">P2P Experts</span>
                 </h2>

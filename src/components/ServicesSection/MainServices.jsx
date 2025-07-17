@@ -49,7 +49,7 @@ const MainServices = () => {
 
     return (
         <div>
-            <div className="relative bg-[#25295C] w-full rsm:h-[3200px] xxsm:h-[2000px] h-[1900px] md:h-[1200px] lg:h-[1300px] 4xl:h-[1100px] overflow-hidden">
+            <div className="relative bg-[#25295C] w-full rsm:h-[3200px] xxsm:h-[2000px] h-[1900px] md:h-[1200px] lg:h-[1300px] 4xl:h-[1600px] overflow-hidden">
                 {/* Background vector graphic */}
                 <img
                     src={vector}

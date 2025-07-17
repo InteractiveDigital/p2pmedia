@@ -49,7 +49,7 @@ export default function PromiseSection() {
                 </motion.header>
 
                 {/* Main Content */}
-                <main className="py-12 max-w-7xl mx-auto">
+                <main className="py-12">
                     {/* Hero Section */}
                     <motion.div className="mb-16" variants={itemVariants}>
                         <h1 className="text-3xl lg:text-5xl font-medium leading-[56px] tracking-[-3%] text-[#25295C]">
@@ -60,7 +60,7 @@ export default function PromiseSection() {
                     </motion.div>
 
                     {/* Content Grid */}
-                    <div className="flex flex-col lg:flex-row items-start justify-between w-full">
+                    <div className="flex flex-col lg:flex-row items-start md:justify-between 4xl:gap-10 w-full">
                         {/* Left Column */}
                         <div className="space-y-8 md:w-[677px] mb-4 md:mb-8 lg:mb-0">
                             <motion.p
